@@ -19,10 +19,10 @@ The Lee-Cater model produces the best results in terms of training and test fore
 Execution 
 -----------------------------------------------------------------------------------------------------
 
-Launch a Jupyter notebook with and R kernel using the base Docker image ```jupyter/r-notebook:r-4.1.2```: 
+Launch a Jupyter notebook with an R kernel using the base Docker image ```jupyter/r-notebook:r-4.1.2```: 
 
 1. Build the Dockerfile  ```docker build -t notebook .```
 2. Run on http://localhost:8888/ ```docker run --rm -p 8888:8888 -v ${PWD}/R:/home/jovyan/work/R notebook```
 
 References: 
-Richman, R., & Wuthrich, M. V. (2019). Lee and Carter go machine learning: Recurrent neural networks. Available at SSRN 3441030.
+Richman, R., & Wuthrich, M. V. (2019). Lee and Carter go machine learning: Recurrent neural networks.
