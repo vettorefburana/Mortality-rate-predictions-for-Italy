@@ -1,4 +1,4 @@
-# Mortality-rate-predictions-for-Italy
+Mortality-rate-predictions-for-Italy
 ---------------------------------------------------------------------------------------------------------
 Mortality rate predictions for Italy in 2020 using Lee-Carter model and Recurrent Neural Networks
 
@@ -16,7 +16,7 @@ The shallow LSTM and time-distributed LSTM are used to produce a one-step-ahead 
 
 The Lee-Cater model produces the best results in terms of training and test forecast error.
 
-# Execution 
+Execution 
 -----------------------------------------------------------------------------------------------------
 
 Launch a Jupyter notebook with and R kernel using the base Docker image ```jupyter/r-notebook:r-4.1.2```: 
