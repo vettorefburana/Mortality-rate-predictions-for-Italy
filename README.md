@@ -5,6 +5,7 @@ Mortality rate predictions for Italy in 2020 using Lee-Carter model and Recurren
 Predict total italian mortality rate in 2020 with the following models: 
 
 * Lee-Carter 
+* Bayesian Lee-Carter
 * Shallow LSTM 
 * Shallow time-distributed LSTM
 * Deep LSTM 
