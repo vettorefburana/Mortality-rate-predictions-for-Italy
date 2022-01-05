@@ -25,8 +25,4 @@ Launch a Jupyter notebook with R kernel using the base Docker image ```jupyter/r
 1. Build the Dockerfile  ```docker build -t notebook .```
 2. Run on http://localhost:8888/ ```docker run --rm -p 8888:8888 -v ${PWD}/R:/home/jovyan/work/R notebook```
 
-References: 
-
-https://github.com/jupyter/docker-stacks
-
-Richman, R., & Wuthrich, M. V. (2019). Lee and Carter go machine learning: Recurrent neural networks.
+References: Richman, R., & Wuthrich, M. V. (2019). Lee and Carter go machine learning: Recurrent neural networks.
